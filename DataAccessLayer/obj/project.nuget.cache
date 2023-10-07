@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tzdrmbcVbvtqFy8cAQfml3WODCIcdDeP/f4GUO81dKnsQeQX0XQJ34UPV5Y7DKCRfO8QHRFCQK9a0F8kRLNYAA==",
+  "dgSpecHash": "uy9moQoSiBbZheFNsbkegpRP1btPsA5jaYFvGeYqCR4hbUNiuQxDOWUzSxtutqrH0eXu7cxrn2dZRU6Mi8gdEg==",
   "success": true,
   "projectFilePath": "/Users/mertcan/Projects/BackendProjects-partone/DataAccessLayer/DataAccessLayer.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "/Users/mertcan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/jwt/10.1.0/jwt.10.1.0.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.11/microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
+    "/Users/mertcan/.nuget/packages/microsoft.aspnetcore.authorization/7.0.11/microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
+    "/Users/mertcan/.nuget/packages/microsoft.aspnetcore.metadata/7.0.11/microsoft.aspnetcore.metadata.7.0.11.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
@@ -29,8 +31,8 @@
     "/Users/mertcan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
-    "/Users/mertcan/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "/Users/mertcan/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/mertcan/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/Users/mertcan/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.identity.client/4.47.2/microsoft.identity.client.4.47.2.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/microsoft.identity.client.extensions.msal/2.19.3/microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
@@ -68,9 +70,7 @@
     "/Users/mertcan/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
     "/Users/mertcan/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/mertcan/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
-    "/Users/mertcan/.nuget/packages/microsoft.netcore.app.ref/7.0.8/microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
-    "/Users/mertcan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.8/microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512"
+    "/Users/mertcan/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

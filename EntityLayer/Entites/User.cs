@@ -13,6 +13,10 @@ namespace EntityLayer.Entites
         public string Email { get; set; }
 
         public long PhoneNumber { get; set; }
+
+        public string ImgURL { get; set; }
+
+        public string Role { get; set; }
     }
 }
 

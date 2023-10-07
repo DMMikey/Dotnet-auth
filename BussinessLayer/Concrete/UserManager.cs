@@ -62,14 +62,19 @@ namespace BussinessLayer.Concrete
             return _userDAL.ListUsers();
         }
 
-        public User TLogin(string Username, string Password)
+        public User? TLogin(string Username, string Password)
         {
-            var userFromDb = _userDAL.Login(Username);
-            if (userFromDb.Password == Password)
+            if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
             {
-                return userFromDb;
+                return null;
             }
-            return null;
+            var userFromDb = _userDAL.GetUserByID(Username);
+            if (userFromDb.Password != Password)
+            {
+                return null;
+            }
+            Console.WriteLine(userFromDb);
+            return userFromDb;
         }
 
         public void TRegister(User t)

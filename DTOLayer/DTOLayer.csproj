@@ -17,6 +17,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="7.0.11" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
@@ -26,9 +27,11 @@
   <ItemGroup>
     <None Remove="DTOs\" />
     <None Remove="DTOs\User\" />
+    <None Remove="DTOs\RequestsDTO\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="DTOs\User\" />
+    <Folder Include="DTOs\RequestsDTO\" />
   </ItemGroup>
 </Project>

@@ -1,61 +1,47 @@
 ﻿<Properties StartupConfiguration="{FA73D461-502A-4E4F-B9D2-62DD3580F5B2}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.APILayer PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="APILayer/Controllers/UserController.cs">
     <Files>
-      <File FileName="DataAccessLayer/EF/EFUserDAL.cs" Line="1" Column="1" />
-      <File FileName="DataAccessLayer/Repositories/AuthRepository.cs" Line="20" Column="36" />
-      <File FileName="DataAccessLayer/Abstact/IUserDAL.cs" Line="1" Column="1" />
-      <File FileName="DataAccessLayer/Abstact/IAuthDAL.cs" Line="16" Column="14" />
-      <File FileName="BussinessLayer/Abstract/IAuthServices.cs" Line="10" Column="17" />
-      <File FileName="BussinessLayer/Abstract/IUserServices.cs" Line="6" Column="45" />
-      <File FileName="BussinessLayer/Concrete/UserManager.cs" Line="30" Column="1" />
-      <File FileName="DataAccessLayer/Concrete/Context.cs" Line="1" Column="1" />
-      <File FileName="APILayer/Controllers/UserController.cs" Line="38" Column="1" />
-      <File FileName="DTOLayer/DTOs/User/GetUsersDTO.cs" Line="10" Column="20" />
-      <File FileName="APILayer/AutoMapper/AutoMapperConfig.cs" Line="13" Column="10" />
-      <File FileName="APILayer/appsettings.json" Line="1" Column="1" />
+      <File FileName="DataAccessLayer/EF/EFUserDAL.cs" />
+      <File FileName="DataAccessLayer/Repositories/AuthRepository.cs" />
+      <File FileName="DataAccessLayer/Abstact/IUserDAL.cs" />
+      <File FileName="DataAccessLayer/Abstact/IAuthDAL.cs" />
+      <File FileName="BussinessLayer/Abstract/IAuthServices.cs" />
+      <File FileName="BussinessLayer/Abstract/IUserServices.cs" />
+      <File FileName="BussinessLayer/Concrete/UserManager.cs" />
+      <File FileName="DataAccessLayer/Concrete/Context.cs" />
+      <File FileName="APILayer/AutoMapper/AutoMapperConfig.cs" />
+      <File FileName="APILayer/appsettings.json" />
+      <File FileName="DTOLayer/DTOs/User/UsersGetDTO.cs" />
+      <File FileName="EntityLayer/Entites/User.cs" />
+      <File FileName="APILayer/Program.cs" />
+      <File FileName="APILayer/Controllers/UserController.cs" Line="60" Column="22" />
+      <File FileName="DataAccessLayer/Repositories/GenericRepository.cs" />
+      <File FileName="DataAccessLayer/Abstact/IGenericDAL.cs" />
+      <File FileName="APILayer/Utils/SD.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BackendProjects-partone" expanded="True">
-            <Node name="APILayer" expanded="True">
-              <Node name="AutoMapper" expanded="True" />
+            <Node name="APILayer">
               <Node name="Controllers" expanded="True">
                 <Node name="UserController.cs" selected="True" />
               </Node>
+              <Node name="Utils" expanded="True" />
             </Node>
-            <Node name="BussinessLayer" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
-            </Node>
-            <Node name="DataAccessLayer" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="ProjectDependencies" expanded="True" />
-              </Node>
-              <Node name="Abstact" expanded="True" />
-              <Node name="Concrete" expanded="True" />
+            <Node name="DataAccessLayer">
               <Node name="EF" expanded="True" />
-              <Node name="Repositories" expanded="True" />
-            </Node>
-            <Node name="DTOLayer" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="DTOs" expanded="True">
-                <Node name="User" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="EntityLayer" expanded="True">
-              <Node name="Entites" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.APILayer PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>
